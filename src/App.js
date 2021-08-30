@@ -14,7 +14,7 @@ function App() {
     }
     else {
       setMode('dark');
-      document.body.style.backgroundColor='#212529';
+      document.body.style.backgroundColor='rgb(26 37 47)';
       // alert('Switched to Dark Mode')
     } 
 

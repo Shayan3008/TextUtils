@@ -62,7 +62,7 @@ export default function TextForm(props) {
                 <p className={`text-${props.mode==="light"?"dark":"light"}`}>{checkNumberOfWords()} words and {text.length} chars</p>
                 <p className={`text-${props.mode==="light"?"dark":"light"}`}>{0.008 * text.split(' ').length} min required to read the whole paragraph</p>
                 <h1 className={`text-${props.mode==="light"?"dark":"light"}`}>Preview</h1>
-                <p>{text}</p>
+                <p>{text.length>0?text:'Please Enter a text to preview it'}</p>
             </div>
 
         </>
