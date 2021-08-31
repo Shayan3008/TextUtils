@@ -28,7 +28,9 @@ function App() {
       showAlert("Dark mode is enabled","success")
       // alert('Switched to Dark Mode')
     } 
-
+    setTimeout(() => {
+      setalert(null);
+    }, 1500);
   }
   return (
     <>
