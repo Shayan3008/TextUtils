@@ -9,6 +9,6 @@ export default function Alert(props) {
         )
     else
     return(
-        <div></div>
+        <div/>
     )
 }

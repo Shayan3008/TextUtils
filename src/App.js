@@ -20,12 +20,14 @@ function App() {
       setMode('light');
       document.body.style.backgroundColor= 'white';
       showAlert("Light Mode is enabled","success")
+      document.title="Text Utils Light Mode";
       // alert('Switched to Light Mode')
     }
     else {
       setMode('dark');
       document.body.style.backgroundColor='rgb(26 37 47)';
       showAlert("Dark mode is enabled","success")
+      document.title="Text Utils Dark Mode";
       // alert('Switched to Dark Mode')
     } 
     setTimeout(() => {
